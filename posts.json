@@ -82,38 +82,77 @@
       "timezone": "Africa/Casablanca"
     },
     {
-      "id": "2026-11-27-intro-reel",
+      "id": "2026-11-27-polite",
       "date": "2026-11-27",
       "time": "10:00",
-      "format": "reel",
-      "manual": "Film this yourself (vertical, 20–25 s, natural light, face the camera).",
-      "reel": {
-        "duration": "20–25 s",
-        "shots": [
-          {
-            "t": "0–2 s",
-            "say": "Want to speak English with confidence?",
-            "onScreen": "Speak English with confidence?"
-          },
-          {
-            "t": "2–8 s",
-            "say": "I teach practical English to adults, from beginner to advanced, online or in Agadir.",
-            "onScreen": "Adults · A1 → C1 · Online & Agadir"
-          },
-          {
-            "t": "8–16 s",
-            "say": "No long grammar lectures. We practise real situations: phone calls, work, travel. You learn by doing.",
-            "onScreen": "Learn by doing, not memorising"
-          },
-          {
-            "t": "16–22 s",
-            "say": "Send me a message on WhatsApp, the link is in my bio.",
-            "onScreen": "📩 WhatsApp · link in bio"
-          }
-        ],
-        "subtitles": "English + Darija"
-      },
-      "caption": "Hi! This is how my English classes work 👋\n\nPractical English for adults: work, phone calls, travel, daily life. You practise, get feedback, and level up.\nكنتعلمو بالممارسة، ماشي بالحفظ 💬\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishclasses #agadir #morocco #anglais #تعلم_الانجليزية #الانجليزية",
+      "format": "carousel",
+      "kicker": "POLITE ENGLISH",
+      "slides": [
+        {
+          "type": "cover",
+          "title": "Sound polite:",
+          "titleAccent": "5 ways to ask",
+          "ar": "كيفاش تطلب بأدب",
+          "footer": "Save it · Use it at work",
+          "id": "01"
+        },
+        {
+          "type": "phrase",
+          "n": 1,
+          "en": "Could you help me, please?",
+          "use": "Ask for help politely.",
+          "ar": "واش ممكن تعاوني عافاك؟",
+          "tip": "Could is more polite than can.",
+          "id": "02"
+        },
+        {
+          "type": "phrase",
+          "n": 2,
+          "en": "Could you repeat that, please?",
+          "use": "You didn't hear or understand.",
+          "ar": "واش ممكن تعاود عافاك؟",
+          "tip": "repeat that = say it again.",
+          "id": "03"
+        },
+        {
+          "type": "phrase",
+          "n": 3,
+          "en": "Could you send me the file?",
+          "use": "Ask a colleague for something.",
+          "ar": "واش ممكن تصيفط ليا الملف؟",
+          "tip": "send me the file = send the file to me.",
+          "id": "04"
+        },
+        {
+          "type": "phrase",
+          "n": 4,
+          "en": "Would you mind waiting a moment?",
+          "use": "Ask someone to wait, very politely.",
+          "ar": "واش ممكن تسنى شوية؟",
+          "tip": "Would you mind + verb-ing.",
+          "id": "05"
+        },
+        {
+          "type": "phrase",
+          "n": 5,
+          "en": "Can I ask you a question?",
+          "use": "Before you ask something.",
+          "ar": "واش نقدر نسولك سؤال؟",
+          "tip": "ask a question, not \"make a question\".",
+          "id": "06"
+        },
+        {
+          "type": "cta",
+          "title": "Please is good.",
+          "titleAccent": "Could you is better.",
+          "ar": "زيد could باش تكون مؤدب أكثر",
+          "body": "In class we practise real situations like emails, calls and meetings.",
+          "meta": "Adults · A1 → C1 · Online & in Agadir",
+          "phone": "06 46 96 50 61",
+          "id": "07"
+        }
+      ],
+      "caption": "Sound polite in English 🙏\n\n1. Could you help me, please?\n2. Could you repeat that, please?\n3. Could you send me the file?\n4. Would you mind waiting a moment?\n5. Can I ask you a question?\n\nCould أكثر أدب من can 👌 Save this for work.\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishclasses #agadir #morocco #anglais #تعلم_الانجليزية #الانجليزية",
       "timezone": "Africa/Casablanca"
     },
     {
@@ -215,37 +254,86 @@
       "timezone": "Africa/Casablanca"
     },
     {
-      "id": "2026-11-30-iamwork-reel",
+      "id": "2026-11-30-bank",
       "date": "2026-11-30",
       "time": "10:00",
-      "format": "reel",
-      "manual": "Text-on-screen reel: no face needed. Use CapCut/Instagram editor, 10–12 s, a calm beat.",
-      "reel": {
-        "duration": "10–12 s",
-        "shots": [
-          {
-            "t": "0–2 s",
-            "onScreen": "Stop saying this ❌"
-          },
-          {
-            "t": "2–5 s",
-            "onScreen": "\"I am work in a bank.\" ❌"
-          },
-          {
-            "t": "5–8 s",
-            "onScreen": "\"I work in a bank.\" ✅"
-          },
-          {
-            "t": "8–11 s",
-            "onScreen": "am + verb = ❌ · Just the verb ✅  |  ما تزيدش am قبل الفعل"
-          },
-          {
-            "t": "11–12 s",
-            "onScreen": "Follow for 1 tip a day"
-          }
-        ]
-      },
-      "caption": "\"I am work\" ❌ → \"I work\" ✅\n\nDon't put am before a normal verb.\nI work · She works · They work\n\nما تزيدش am قبل الفعل 👌 Save this and follow for one tip a day.\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishclasses #agadir #morocco #anglais #تعلم_الانجليزية #الانجليزية",
+      "format": "carousel",
+      "kicker": "AT THE BANK",
+      "slides": [
+        {
+          "type": "cover",
+          "title": "At the bank:",
+          "titleAccent": "10 words you need",
+          "ar": "10 كلمات للبنكة",
+          "footer": "Save it · Learn 5 today",
+          "id": "01"
+        },
+        {
+          "type": "list",
+          "title": "Your account",
+          "items": [
+            [
+              "account · I want to open an account.",
+              "حساب"
+            ],
+            [
+              "balance · What's my balance?",
+              "الرصيد (الصولد)"
+            ],
+            [
+              "deposit · I'd like to deposit 1,000 dirhams.",
+              "يدير الفلوس فالحساب"
+            ],
+            [
+              "withdraw · I need to withdraw some cash.",
+              "يجبد الفلوس"
+            ],
+            [
+              "transfer · Can I make a transfer?",
+              "تحويل (فيرمو)"
+            ]
+          ],
+          "id": "02"
+        },
+        {
+          "type": "list",
+          "title": "Cards & services",
+          "items": [
+            [
+              "bank card · My bank card doesn't work.",
+              "الكارط ديال البنكة"
+            ],
+            [
+              "ATM · Where is the nearest ATM?",
+              "الگيشي"
+            ],
+            [
+              "fee · Is there a fee?",
+              "مصاريف"
+            ],
+            [
+              "loan · I'm asking for a loan.",
+              "قرض (الكريدي)"
+            ],
+            [
+              "statement · Can I have a bank statement?",
+              "كشف الحساب (الريلوفي)"
+            ]
+          ],
+          "id": "03"
+        },
+        {
+          "type": "cta",
+          "title": "Next time at the bank,",
+          "titleAccent": "try one sentence.",
+          "ar": "المرة الجاية فالبنكة، جرّب جملة",
+          "body": "Which word is new for you? Tell me in the comments.",
+          "meta": "Adults · A1 → C1 · Online & in Agadir",
+          "phone": "06 46 96 50 61",
+          "id": "04"
+        }
+      ],
+      "caption": "At the bank 🏦 10 words you need:\n\naccount · balance · deposit · withdraw · transfer\nbank card · ATM · fee · loan · statement\n\nEach one has an example sentence in the slides 👉\nشمن كلمة جديدة عليك؟ 👇\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishclasses #agadir #morocco #anglais #تعلم_الانجليزية #الانجليزية",
       "timezone": "Africa/Casablanca"
     },
     {
@@ -486,42 +574,77 @@
       "timezone": "Africa/Casablanca"
     },
     {
-      "id": "2026-12-04-phone-reel",
+      "id": "2026-12-04-introduce",
       "date": "2026-12-04",
       "time": "10:00",
-      "format": "reel",
-      "manual": "Film yourself saying each sentence clearly, 20–25 s. Add the text on screen.",
-      "reel": {
-        "duration": "20–25 s",
-        "shots": [
-          {
-            "t": "0–2 s",
-            "say": "Say these 3 phone sentences like a native.",
-            "onScreen": "3 phone sentences 📞"
-          },
-          {
-            "t": "2–8 s",
-            "say": "Hello, this is Youssef.",
-            "onScreen": "Hello, this is Youssef. (not \"I am Youssef\")"
-          },
-          {
-            "t": "8–14 s",
-            "say": "Can I call you back?",
-            "onScreen": "Can I call you back? → call back = call again later"
-          },
-          {
-            "t": "14–20 s",
-            "say": "Hold on a moment, please.",
-            "onScreen": "Hold on a moment, please. = wait"
-          },
-          {
-            "t": "20–24 s",
-            "say": "Repeat after me, and save this video.",
-            "onScreen": "Repeat after me 🔁 · Save it"
-          }
-        ]
-      },
-      "caption": "Say them out loud with me 📞\n\n1. Hello, this is Youssef.\n2. Can I call you back?\n3. Hold on a moment, please.\n\nعاود موراي وسجّل الفيديو 🔁\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishclasses #agadir #morocco #anglais #تعلم_الانجليزية #الانجليزية",
+      "format": "carousel",
+      "kicker": "SPEAKING",
+      "slides": [
+        {
+          "type": "cover",
+          "title": "Introduce yourself",
+          "titleAccent": "in 5 sentences",
+          "ar": "عرّف براسك ف5 جمل",
+          "footer": "Save it · Practise it out loud",
+          "id": "01"
+        },
+        {
+          "type": "phrase",
+          "n": 1,
+          "en": "Hi, I'm Sara.",
+          "use": "Say your name.",
+          "ar": "سلام، أنا سارة.",
+          "tip": "I'm = I am. Short and natural.",
+          "id": "02"
+        },
+        {
+          "type": "phrase",
+          "n": 2,
+          "en": "I'm from Agadir, but I live in Casablanca.",
+          "use": "Where you are from, and where you live now.",
+          "ar": "أنا من أكادير، ولكن ساكنة فكازا.",
+          "tip": "from = where you were born · live in = where you live now.",
+          "id": "03"
+        },
+        {
+          "type": "phrase",
+          "n": 3,
+          "en": "I work as a nurse in a private clinic.",
+          "use": "Talk about your job.",
+          "ar": "كنخدم فرملية فمصحة خاصة.",
+          "tip": "work as + a / an + job.",
+          "id": "04"
+        },
+        {
+          "type": "phrase",
+          "n": 4,
+          "en": "In my free time, I like reading and swimming.",
+          "use": "Talk about your hobbies.",
+          "ar": "فوقت الفراغ، كنبغي القراية والعوم.",
+          "tip": "like + verb-ing.",
+          "id": "05"
+        },
+        {
+          "type": "phrase",
+          "n": 5,
+          "en": "Nice to meet you!",
+          "use": "Finish politely.",
+          "ar": "متشرفين!",
+          "tip": "The answer: Nice to meet you too!",
+          "id": "06"
+        },
+        {
+          "type": "cta",
+          "title": "Your turn:",
+          "titleAccent": "introduce yourself.",
+          "ar": "دابا نتا، عرّف براسك",
+          "body": "Write your 5 sentences in the comments. I'll correct them.",
+          "meta": "Adults · A1 → C1 · Online & in Agadir",
+          "phone": "06 46 96 50 61",
+          "id": "07"
+        }
+      ],
+      "caption": "Introduce yourself in English in 5 sentences 👋\n\n1. Hi, I'm Sara.\n2. I'm from Agadir, but I live in Casablanca.\n3. I work as a nurse in a private clinic.\n4. In my free time, I like reading and swimming.\n5. Nice to meet you!\n\nدابا نتا: write your 5 sentences in the comments, I'll correct them 👇\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishclasses #agadir #morocco #anglais #تعلم_الانجليزية #الانجليزية",
       "timezone": "Africa/Casablanca"
     },
     {
@@ -707,9 +830,134 @@
       "timezone": "Africa/Casablanca"
     },
     {
-      "id": "2026-12-08-workbook",
+      "id": "2026-12-08-phrasal-work",
       "date": "2026-12-08",
       "time": "18:00",
+      "format": "carousel",
+      "kicker": "ENGLISH FOR WORK",
+      "slides": [
+        {
+          "type": "cover",
+          "title": "5 phrasal verbs",
+          "titleAccent": "you'll hear at work",
+          "ar": "5 أفعال مركبة فالخدمة",
+          "footer": "Save it · Use one tomorrow",
+          "id": "01"
+        },
+        {
+          "type": "phrase",
+          "n": 1,
+          "en": "Can I call you back later?",
+          "use": "call back = phone again later",
+          "ar": "نعاود نعيط ليك من بعد؟",
+          "tip": "call someone back.",
+          "id": "02"
+        },
+        {
+          "type": "phrase",
+          "n": 2,
+          "en": "Let's set up a meeting for Monday.",
+          "use": "set up = organise",
+          "ar": "نديرو اجتماع نهار الاثنين.",
+          "tip": "set up a meeting / an account / a business.",
+          "id": "03"
+        },
+        {
+          "type": "phrase",
+          "n": 3,
+          "en": "Please fill in this form.",
+          "use": "fill in = write the information",
+          "ar": "عمّر هاد الورقة عافاك.",
+          "tip": "fill in a form · fill in your name.",
+          "id": "04"
+        },
+        {
+          "type": "phrase",
+          "n": 4,
+          "en": "I'm looking for a new job.",
+          "use": "look for = try to find",
+          "ar": "كنقلب على خدمة جديدة.",
+          "tip": "look for ≠ look at.",
+          "id": "05"
+        },
+        {
+          "type": "phrase",
+          "n": 5,
+          "en": "I'll get back to you tomorrow.",
+          "use": "get back to = reply later",
+          "ar": "غادي نرجع ليك غدا.",
+          "tip": "Very common in emails.",
+          "id": "06"
+        },
+        {
+          "type": "cta",
+          "title": "Which one",
+          "titleAccent": "do you use?",
+          "ar": "شمن واحد كتستعمل؟",
+          "body": "Write a sentence with one of them in the comments.",
+          "meta": "Adults · A1 → C1 · Online & in Agadir",
+          "phone": "06 46 96 50 61",
+          "id": "07"
+        }
+      ],
+      "caption": "5 phrasal verbs you'll hear at work 💼\n\n1. call back → Can I call you back later?\n2. set up → Let's set up a meeting for Monday.\n3. fill in → Please fill in this form.\n4. look for → I'm looking for a new job.\n5. get back to → I'll get back to you tomorrow.\n\nكتب جملة بواحد منهم فالتعليقات 👇\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishclasses #agadir #morocco #anglais #تعلم_الانجليزية #الانجليزية",
+      "timezone": "Africa/Casablanca"
+    },
+    {
+      "id": "2026-12-09-quiz-was-were",
+      "date": "2026-12-09",
+      "time": "10:00",
+      "format": "carousel",
+      "kicker": "QUICK QUIZ",
+      "slides": [
+        {
+          "type": "cover",
+          "title": "Quiz:",
+          "titleAccent": "was or were?",
+          "ar": "was ولا were؟",
+          "footer": "4 sentences · Can you get them all?",
+          "id": "01"
+        },
+        {
+          "type": "quiz",
+          "question": "Choose was or were",
+          "lines": [
+            "1. I ___ at home last night.",
+            "2. My parents ___ in Fes last week.",
+            "3. ___ the meeting long?",
+            "4. We ___ late. The tram was full."
+          ],
+          "footer": "Answers on the next slide →",
+          "id": "02"
+        },
+        {
+          "type": "answers",
+          "items": [
+            "1. was",
+            "2. were",
+            "3. Was",
+            "4. were"
+          ],
+          "id": "03"
+        },
+        {
+          "type": "cta",
+          "title": "4 out of 4?",
+          "titleAccent": "Tell me in the comments.",
+          "ar": "شحال جبتي؟",
+          "body": "Practise more grammar with real situations in my classes.",
+          "meta": "Adults · A1 → C1 · Online & in Agadir",
+          "phone": "06 46 96 50 61",
+          "id": "04"
+        }
+      ],
+      "caption": "Quick quiz 🧠 was or were?\n\n1. I ___ at home last night.\n2. My parents ___ in Fes last week.\n3. ___ the meeting long?\n4. We ___ late. The tram was full.\n\nAnswers on slide 3 👉 How many did you get? 👇\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishclasses #agadir #morocco #anglais #تعلم_الانجليزية #الانجليزية",
+      "timezone": "Africa/Casablanca"
+    },
+    {
+      "id": "2026-12-08-workbook",
+      "date": null,
+      "time": null,
       "format": "carousel",
       "kicker": "INSIDE THE WORKBOOK",
       "manual": "Add 3 screenshots of the workbook (exercises, reading word panel, session page) as image1–3.png next to the template.",
@@ -755,56 +1003,8 @@
         }
       ],
       "caption": "What happens between classes? 📚\n\nEvery student gets a personal workbook:\n✅ Exercises that unlock when you get 100%\n✅ Reading where you tap a word to save it\n✅ Every session saved: plan, homework, corrections\n\nالتعلم ما كيوقفش بعد الحصة 💬\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishclasses #agadir #morocco #anglais #تعلم_الانجليزية #الانجليزية",
-      "timezone": "Africa/Casablanca"
-    },
-    {
-      "id": "2026-12-09-pronunciation-reel",
-      "date": "2026-12-09",
-      "time": "10:00",
-      "format": "reel",
-      "manual": "Film yourself: say the wrong way (crossed out on screen), then the right way. 25–30 s.",
-      "reel": {
-        "duration": "25–30 s",
-        "shots": [
-          {
-            "t": "0–2 s",
-            "say": "5 words you're probably saying wrong.",
-            "onScreen": "5 words you might say wrong 👀"
-          },
-          {
-            "t": "2–7 s",
-            "say": "Comfortable: KUMF-ta-bul. Three syllables.",
-            "onScreen": "comfortable → KUMF-tuh-bul"
-          },
-          {
-            "t": "7–12 s",
-            "say": "Vegetable: VEJ-ta-bul.",
-            "onScreen": "vegetable → VEJ-tuh-bul"
-          },
-          {
-            "t": "12–17 s",
-            "say": "Wednesday: WENZ-day. The first d is silent.",
-            "onScreen": "Wednesday → WENZ-day"
-          },
-          {
-            "t": "17–22 s",
-            "say": "Clothes: sounds like 'close'.",
-            "onScreen": "clothes → like \"close\""
-          },
-          {
-            "t": "22–27 s",
-            "say": "Island: EYE-land. The s is silent.",
-            "onScreen": "island → EYE-land (silent s)"
-          },
-          {
-            "t": "27–30 s",
-            "say": "Which one surprised you?",
-            "onScreen": "Which one surprised you? 👇"
-          }
-        ]
-      },
-      "caption": "5 English words many people say wrong 🗣️\n\ncomfortable · vegetable · Wednesday · clothes · island\n\nWhich one surprised you? 👇 شمن وحدة كنتي كتقولها غلط؟\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishclasses #agadir #morocco #anglais #تعلم_الانجليزية #الانجليزية",
-      "timezone": "Africa/Casablanca"
+      "timezone": "Africa/Casablanca",
+      "note": "Unscheduled: waiting for 3 workbook screenshots."
     }
   ]
 }
