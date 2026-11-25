@@ -1,0 +1,424 @@
+{
+  "brand": {
+    "bg": "#0F3D3E",
+    "accent": "#F2B33D",
+    "onAccent": "#0B2B2C",
+    "whatsapp": "06 46 96 50 61",
+    "instagram": "@mabflow_"
+  },
+  "reels": [
+    {
+      "id": "2026-11-27-reel-bored",
+      "date": "2026-11-27",
+      "time": "18:00",
+      "kicker": "COMMON MISTAKE",
+      "scenes": [
+        {
+          "type": "hook",
+          "title": "Bored",
+          "accent": "or boring?",
+          "ar": "ماشي نفس الحاجة!",
+          "dur": 2.4
+        },
+        {
+          "type": "pair",
+          "left": "I'm bored.",
+          "right": "I have nothing to do.",
+          "ar": "كنحس بالملل",
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "I'm boring.",
+          "right": "People find me not interesting 😬",
+          "ar": "أنا ممل",
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "rule",
+          "title": "The rule",
+          "rows": [
+            [
+              "-ed",
+              "how you feel"
+            ],
+            [
+              "-ing",
+              "what something is like"
+            ]
+          ],
+          "examples": [
+            "I'm tired. The job is tiring.",
+            "I'm interested. The book is interesting."
+          ],
+          "dur": 3.6
+        },
+        {
+          "type": "cta",
+          "dur": 3.2
+        }
+      ],
+      "caption": "Bored or boring? 😅\n\nI'm bored = I have nothing to do.\nI'm boring = people find me not interesting!\n\n-ed = how you feel · -ing = what something is like\nماشي نفس الحاجة 👀\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishreels #reels #agadir #morocco #تعلم_الانجليزية #الانجليزية",
+      "timezone": "Africa/Casablanca"
+    },
+    {
+      "id": "2026-11-29-reel-very",
+      "date": "2026-11-29",
+      "time": "12:00",
+      "kicker": "SPEAK NATURALLY",
+      "scenes": [
+        {
+          "type": "hook",
+          "title": "Stop saying \"very\"",
+          "accent": "Say this instead",
+          "ar": "بدّل very بكلمة أقوى",
+          "dur": 2.4
+        },
+        {
+          "type": "pair",
+          "left": "very tired",
+          "right": "exhausted",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "very hungry",
+          "right": "starving",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "very big",
+          "right": "huge",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "very small",
+          "right": "tiny",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "very good",
+          "right": "excellent",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "cta",
+          "dur": 3.2
+        }
+      ],
+      "caption": "Stop saying \"very\" 🙅\n\nvery tired → exhausted\nvery hungry → starving\nvery big → huge\nvery small → tiny\nvery good → excellent\n\nSave it and use one today 💬\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishreels #reels #agadir #morocco #تعلم_الانجليزية #الانجليزية",
+      "timezone": "Africa/Casablanca"
+    },
+    {
+      "id": "2026-12-01-reel-make-do",
+      "date": "2026-12-01",
+      "time": "10:00",
+      "kicker": "MAKE OR DO?",
+      "scenes": [
+        {
+          "type": "hook",
+          "title": "make",
+          "accent": "or do?",
+          "ar": "شمن وحدة نستعمل؟",
+          "dur": 2.4
+        },
+        {
+          "type": "rule",
+          "title": "The idea",
+          "rows": [
+            [
+              "make",
+              "create something"
+            ],
+            [
+              "do",
+              "an activity or a task"
+            ]
+          ],
+          "dur": 3.2
+        },
+        {
+          "type": "pair",
+          "left": "make",
+          "right": "a decision · a mistake · a phone call",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 3
+        },
+        {
+          "type": "pair",
+          "left": "do",
+          "right": "homework · the shopping · your best",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 3
+        },
+        {
+          "type": "quiz",
+          "question": "I need to ___ a phone call.",
+          "options": [
+            "make",
+            "do"
+          ],
+          "dur": 3.4
+        },
+        {
+          "type": "answer",
+          "text": "make a phone call ✅",
+          "dur": 2.4
+        },
+        {
+          "type": "cta",
+          "dur": 3.2
+        }
+      ],
+      "caption": "make or do? 🤔\n\nmake = create something → make a decision, a mistake, a phone call\ndo = an activity or a task → do homework, the shopping, your best\n\nDid you get the quiz right? 👇\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishreels #reels #agadir #morocco #تعلم_الانجليزية #الانجليزية",
+      "timezone": "Africa/Casablanca"
+    },
+    {
+      "id": "2026-12-03-reel-silent",
+      "date": "2026-12-03",
+      "time": "18:00",
+      "kicker": "PRONUNCIATION",
+      "scenes": [
+        {
+          "type": "hook",
+          "title": "Silent letters",
+          "accent": "you shouldn't say",
+          "ar": "حروف ما كتنطقش",
+          "dur": 2.4
+        },
+        {
+          "type": "pair",
+          "left": "Wednesday",
+          "right": "WENZ-day · silent d",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "island",
+          "right": "EYE-land · silent s",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "knife",
+          "right": "NIFE · silent k",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "listen",
+          "right": "LISS-en · silent t",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "hour",
+          "right": "OUR · silent h",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "cta",
+          "dur": 3.2
+        }
+      ],
+      "caption": "Silent letters 🤫\n\nWednesday → WENZ-day\nisland → EYE-land\nknife → NIFE\nlisten → LISS-en\nhour → OUR\n\nWhich one surprised you? 👇\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishreels #reels #agadir #morocco #تعلم_الانجليزية #الانجليزية",
+      "timezone": "Africa/Casablanca"
+    },
+    {
+      "id": "2026-12-05-reel-in-on-at",
+      "date": "2026-12-05",
+      "time": "12:00",
+      "kicker": "GRAMMAR IN 15 SECONDS",
+      "scenes": [
+        {
+          "type": "hook",
+          "title": "in, on or at?",
+          "accent": "Time in 15 seconds",
+          "ar": "in ولا on ولا at؟",
+          "dur": 2.4
+        },
+        {
+          "type": "rule",
+          "title": "Time",
+          "rows": [
+            [
+              "in",
+              "months · years · the morning"
+            ],
+            [
+              "on",
+              "days · dates"
+            ],
+            [
+              "at",
+              "times · night"
+            ]
+          ],
+          "dur": 3.8
+        },
+        {
+          "type": "quiz",
+          "question": "___ Monday · ___ 8 o'clock · ___ July",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "dur": 3.6
+        },
+        {
+          "type": "answer",
+          "text": "on Monday · at 8 o'clock · in July",
+          "dur": 2.8
+        },
+        {
+          "type": "cta",
+          "dur": 3.2
+        }
+      ],
+      "caption": "in, on or at? ⏰\n\nin → months, years, the morning\non → days, dates\nat → times, night\n\non Monday · at 8 o'clock · in July ✅\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishreels #reels #agadir #morocco #تعلم_الانجليزية #الانجليزية",
+      "timezone": "Africa/Casablanca"
+    },
+    {
+      "id": "2026-12-07-reel-how-are-you",
+      "date": "2026-12-07",
+      "time": "18:00",
+      "kicker": "SPEAK NATURALLY",
+      "scenes": [
+        {
+          "type": "hook",
+          "title": "Stop answering",
+          "accent": "\"I'm fine, thank you\"",
+          "ar": "كاين أجوبة أحسن",
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "How are you?",
+          "right": "Not bad, thanks! And you?",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "How are you?",
+          "right": "Pretty good, thanks.",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "How are you?",
+          "right": "Busy, but good!",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "How are you?",
+          "right": "Could be better. (not so good)",
+          "ar": null,
+          "leftRtl": false,
+          "dur": 2.6
+        },
+        {
+          "type": "cta",
+          "dur": 3.2
+        }
+      ],
+      "caption": "\"How are you?\" Try these instead of \"I'm fine, thank you\" 👇\n\n• Not bad, thanks! And you?\n• Pretty good, thanks.\n• Busy, but good!\n• Could be better. (= not so good)\n\nوانت؟ How are you today? 👇\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishreels #reels #agadir #morocco #تعلم_الانجليزية #الانجليزية",
+      "timezone": "Africa/Casablanca"
+    },
+    {
+      "id": "2026-12-09-reel-darija",
+      "date": "2026-12-09",
+      "time": "18:00",
+      "kicker": "DARIJA → ENGLISH",
+      "scenes": [
+        {
+          "type": "hook",
+          "title": "Darija → English",
+          "accent": "5 words you say every day",
+          "ar": "كلمات كنقولوها كل نهار",
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "صافي",
+          "right": "OK, that's it.",
+          "ar": null,
+          "leftRtl": true,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "بصح؟",
+          "right": "Really?",
+          "ar": null,
+          "leftRtl": true,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "واخا",
+          "right": "OK / Sure.",
+          "ar": null,
+          "leftRtl": true,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "ماشي مشكل",
+          "right": "No problem.",
+          "ar": null,
+          "leftRtl": true,
+          "dur": 2.6
+        },
+        {
+          "type": "pair",
+          "left": "يالاه",
+          "right": "Let's go!",
+          "ar": null,
+          "leftRtl": true,
+          "dur": 2.6
+        },
+        {
+          "type": "cta",
+          "dur": 3.2
+        }
+      ],
+      "caption": "Darija → English 🇲🇦➡️🇬🇧\n\nصافي → OK, that's it.\nبصح؟ → Really?\nواخا → OK / Sure.\nماشي مشكل → No problem.\nيالاه → Let's go!\n\nشمن كلمة بغيتي نزيدو؟ Tell me in the comments 👇\n\n📩 Practical English for adults (A1 → C1), online & in Agadir. Message me on WhatsApp, link in bio.\n\n#learnenglish #englishmorocco #speakenglish #englishtips #englishreels #reels #agadir #morocco #تعلم_الانجليزية #الانجليزية",
+      "timezone": "Africa/Casablanca"
+    }
+  ]
+}

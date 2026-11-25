@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reel scene template</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;600;700&family=Tajawal:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{ --bg:#0F3D3E; --accent:#F2B33D; --on-accent:#0B2B2C; --muted:rgba(255,255,255,.82); --line:rgba(255,255,255,.2); --box:rgba(255,255,255,.07); --bad:#F49A8E; }
+  *{box-sizing:border-box}
+  body{margin:0;background:#111}
+  /* 1080×1920; content kept inside the Instagram safe zone (top 250px, bottom 420px, sides 90px are covered by the app UI) */
+  .scene{width:1080px;height:1920px;padding:250px 90px 420px;background:var(--bg);color:#fff;font-family:Inter,sans-serif;display:flex;flex-direction:column;justify-content:center;gap:40px;position:relative;overflow:hidden}
+  .kicker{position:absolute;top:250px;left:90px;right:90px;display:flex;justify-content:space-between;font-size:30px;font-weight:700;letter-spacing:4px;color:var(--accent)}
+  .handle{letter-spacing:0;color:rgba(255,255,255,.7);font-weight:600}
+  .display{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;letter-spacing:-2px;line-height:1;margin:0}
+  .acc{color:var(--accent)}
+  .ar{font-family:Tajawal,sans-serif;direction:rtl}
+  .muted{color:var(--muted)}
+  .card{background:var(--box);border:1px solid var(--line);border-radius:28px;padding:36px 40px}
+  .arrow{font-size:80px;color:var(--accent);line-height:1}
+  .opt{display:flex;gap:28px;align-items:center;border:3px solid var(--line);border-radius:28px;padding:30px 36px;font-size:56px;font-weight:700}
+  .opt span{width:84px;height:84px;border-radius:50%;background:var(--accent);color:var(--on-accent);display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-size:44px;font-weight:800}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script>
+/* template: reel.html?reel=<id>&scene=<1-based>  →  screenshot .scene (1080×1920). window.__ready = true when done. */
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let BRAND = {};
+const head = (r) => `<div class="kicker"><span>${esc(r.kicker||'')}</span><span class="handle">${esc(BRAND.instagram||'')}</span></div>`;
+const S = {
+  hook: s => `<h1 class="display" style="font-size:150px">${esc(s.title)}<br><span class="acc">${esc(s.accent)}</span></h1>
+    ${s.ar?`<p class="ar" style="margin:0;font-size:72px;font-weight:800;text-align:right">${esc(s.ar)}</p>`:''}`,
+  pair: s => `<div class="${s.leftRtl?'ar':''}" style="font-size:${s.leftRtl?130:110}px;font-weight:${s.leftRtl?800:700};line-height:1.05;${s.leftRtl?'text-align:right':'font-family:Bricolage Grotesque,sans-serif;letter-spacing:-2px'}">${esc(s.left)}</div>
+    <div class="arrow">↓</div>
+    <div class="display acc" style="font-size:${String(s.right).length>22?84:120}px;line-height:1.05">${esc(s.right)}</div>
+    ${s.ar?`<p class="ar muted" style="margin:0;font-size:60px;font-weight:700;text-align:right">${esc(s.ar)}</p>`:''}`,
+  rule: s => `<h2 class="display" style="font-size:110px">${esc(s.title)}</h2>
+    <div style="display:flex;flex-direction:column;gap:24px">${s.rows.map(([a,b])=>`<div class="card" style="display:flex;gap:36px;align-items:center"><span class="display acc" style="font-size:80px;min-width:200px">${esc(a)}</span><span style="font-size:46px;font-weight:600;line-height:1.25">${esc(b)}</span></div>`).join('')}</div>
+    ${s.examples?`<div class="muted" style="font-size:44px;line-height:1.5">${s.examples.map(esc).join('<br>')}</div>`:''}`,
+  quiz: s => `<div class="acc" style="font-size:40px;font-weight:700;letter-spacing:3px">QUICK QUIZ</div>
+    <h2 class="display" style="font-size:96px;line-height:1.1">${esc(s.question)}</h2>
+    <div style="display:flex;flex-direction:column;gap:24px">${s.options.map((o,i)=>`<div class="opt"><span>${'ABC'[i]}</span>${esc(o)}</div>`).join('')}</div>
+    <div class="muted" style="font-size:44px;font-weight:600">Answer before the next screen…</div>`,
+  answer: s => `<div class="acc" style="font-size:40px;font-weight:700;letter-spacing:3px">ANSWER</div>
+    <h2 class="display acc" style="font-size:112px;line-height:1.08">${esc(s.text)}</h2>`,
+  cta: s => `<h2 class="display" style="font-size:120px;line-height:1.02">Follow for<br><span class="acc">daily English</span></h2>
+    <p class="ar" style="margin:0;font-size:68px;font-weight:800;text-align:right">تابعني باش تتعلم كل نهار</p>
+    <div class="card" style="background:var(--accent);color:var(--on-accent);border:none">
+      <div style="font-size:38px;font-weight:700">Classes on WhatsApp</div>
+      <div class="display" style="font-size:96px;letter-spacing:1px">${esc(BRAND.whatsapp||'')}</div>
+      <div style="font-size:34px;font-weight:600;margin-top:8px">Adults · A1 → C1 · Online &amp; in Agadir</div>
+    </div>`
+};
+function sceneHTML(reel, i){
+  const s = reel.scenes[i];
+  if(!S[s.type]) throw new Error('Unknown scene type: '+s.type);
+  return `<section class="scene">${head(reel)}${S[s.type](s)}</section>`;
+}
+function applyBrand(b){ BRAND=b||{}; const r=document.documentElement.style; if(b.bg) r.setProperty('--bg',b.bg); if(b.accent) r.setProperty('--accent',b.accent); if(b.onAccent) r.setProperty('--on-accent',b.onAccent); }
+(async () => {
+  const q = new URLSearchParams(location.search);
+  if(!q.get('reel')) return;
+  const data = await (await fetch('reels.json')).json();
+  applyBrand(data.brand);
+  const reel = data.reels.find(r => r.id === q.get('reel'));
+  document.getElementById('root').innerHTML = sceneHTML(reel, +q.get('scene') - 1);
+  await document.fonts.ready; window.__ready = true;
+})();
+</script>
+</body>
+</html>
